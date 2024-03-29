@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+input, button {
+    margin: 5px;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+}
+
+#bookList {
+    margin-top: 20px;
+}

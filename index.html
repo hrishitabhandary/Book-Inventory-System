@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Inventory Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Book Inventory System</h1>
+    <div class="input-section">
+      <label for="title">Title:</label>
+      <input type="text"  id="title" placeholder="Enter title">
+      <label for="author">Author</label>
+      <input type="text"  id="author" placeholder="Enter author">
+      <label for="price">Price</label>
+      <input type="number"  id="price" placeholder="Enter price">
+      <label for="quantity">Quantity</label>
+      <input type="number"  id="quantity" placeholder="Enter quantity"> <br>
+      
+      <button id="addBookBtn">Add Book</button> 
+      <button id="removeBookBtn">Remove Book</button>
+      <button id="updateBookBtn">Update Book</button>
+    </div>
+      
+    <div id="message"></div>
+    <div id="bookList"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
